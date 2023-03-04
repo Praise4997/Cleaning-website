@@ -905,7 +905,7 @@ footer{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
-    box-shadow: 0px 1px 1px rgba(168, 166, 166, 0.25);
+    box-shadow: 0px 1px 1px rgba(110, 83, 83, 0.25);
 }
 
 .footer-top-section h2{
@@ -1143,8 +1143,8 @@ footer{
     }
     
     .details-section h2{
-        font-size: 28px;
-        width: 400px;
+        font-size: 23px;
+        width: 350px;
         line-height: 1.7;
         font-weight: 500;
         color: #222;
@@ -1211,7 +1211,7 @@ footer{
     }
 
     .discount{
-        margin: 30px;
+        margin: 15px;
         margin-bottom: 50px;
     }
 
@@ -1242,6 +1242,7 @@ footer{
     .row-section{
         flex-direction: column;
         margin: 0px;
+        width: 350px;
     }
     
     .row-section .img{
@@ -1250,8 +1251,9 @@ footer{
     
     .row-section .img img{
         height: 400px;
-        width: 400px;
+        width: 350px;
         margin-top: 5rem;
+        display: none;
     }
     
     .text-container{
@@ -1327,6 +1329,8 @@ footer{
     /* footer */
     .footer-top-section{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     .footer-top-section h2{
