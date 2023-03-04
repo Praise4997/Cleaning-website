@@ -275,7 +275,7 @@ header::after{
 
 .details-section .labels .label p{
     color: #666;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
 }
 
 .details-section button{
